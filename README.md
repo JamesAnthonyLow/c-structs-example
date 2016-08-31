@@ -21,7 +21,7 @@ struct Rectangle my_rectangle;
 
 Notice how I have to refer to this new type by its "full" name "struct Rectangle" and cannot just declare a "Rectangle".  However if I want to refer to my new structs this way I can make use of the keyword ```typedef``` which you can read about [here](http://www.tutorialspoint.com/cprogramming/c_typedef.htm).  There is some debate regarding whether or not this is a good idea however most of the code I have read prefers the ```typedef``` syntax which would look like this:
 
-```
+```c
 typedef struct {
   int length;
   int width;
